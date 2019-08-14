@@ -21,7 +21,7 @@ const AboutPage = () => (
       <AboutStyle>
         <h3>About Me</h3>
         <p>
-          <strong>Full-Stack Software Engineer</strong>
+          <strong>Software Engineer</strong>
         </p>
         <table>
           <thead>

@@ -29,7 +29,7 @@ const IndexPage = () => (
       <Head title="Home" />
       <HomeStyle>
         <h1>Michael Roa</h1>
-        <h4>Full-Stack Software Engineer</h4>
+        <h4>Software Engineer</h4>
         <div className="icons">
           <a href="https://github.com/wavegxd">
             <FontAwesomeIcon icon={faGithubSquare} size="3x" color="black" />
