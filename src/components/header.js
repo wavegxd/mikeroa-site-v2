@@ -15,11 +15,6 @@ const Header = () => {
   return (
     <HeaderStyle>
       <header className="header">
-        <h1>
-          <Link to="/" className="title">
-            {data.site.siteMetadata.title}
-          </Link>
-        </h1>
         <nav>
           <ul className="nav-list">
             <li>
@@ -47,15 +42,6 @@ const Header = () => {
                 activeClassName="active-nav-item"
               >
                 About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="nav-item"
-                activeClassName="active-nav-item"
-              >
-                Contact
               </Link>
             </li>
           </ul>

@@ -14,6 +14,7 @@ const HeaderStyle = styled.div`
   .nav-list {
     display: flex;
     list-style-type: none;
+    justify-content: center;
     margin: 0;
   }
 

@@ -1,9 +1,18 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import Head from '../components/head';
+
+const BlogPageStyle = styled.div`
+  text-align: center;
+  img {
+    height: 400px;
+    width: 600px;
+  }
+`;
 
 export const query = graphql`
   query($slug: String!) {
@@ -31,12 +40,14 @@ const Blog = (props) => {
   return (
     <Layout>
       <Head title={props.data.contentfulBlogPost.title} />
-      <h1>{props.data.contentfulBlogPost.title}</h1>
-      <p>{props.data.contentfulBlogPost.publishedDate}</p>
-      {documentToReactComponents(
-        props.data.contentfulBlogPost.body.json,
-        options
-      )}
+      <BlogPageStyle>
+        <h1>{props.data.contentfulBlogPost.title}</h1>
+        <p>{props.data.contentfulBlogPost.publishedDate}</p>
+        {documentToReactComponents(
+          props.data.contentfulBlogPost.body.json,
+          options
+        )}
+      </BlogPageStyle>
     </Layout>
   );
 };

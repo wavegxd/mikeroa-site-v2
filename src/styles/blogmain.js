@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 const BlogMainStyle = styled.div`
+  text-align: center;
+  h1 {
+    padding-bottom: 0.5rem;
+  }
   .posts {
     list-style-type: none;
     margin: 0;
