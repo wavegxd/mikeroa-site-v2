@@ -9,8 +9,9 @@ import Head from '../components/head';
 const BlogPageStyle = styled.div`
   text-align: center;
   img {
-    height: 400px;
-    width: 600px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
   }
 `;
 
