@@ -1,9 +1,9 @@
-import React from 'react';
-import { graphql, useStaticQuery, Link } from 'gatsby';
+import React from 'react'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 
-import Layout from '../components/layout';
-import BlogMainStyle from '../styles/blogmain';
-import Head from '../components/head';
+import Layout from '../components/layout'
+import BlogMainStyle from '../styles/blogmain'
+import Head from '../components/head'
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
@@ -18,7 +18,7 @@ const BlogPage = () => {
         }
       }
     }
-  `);
+  `)
   return (
     <div>
       <Layout>
@@ -38,7 +38,7 @@ const BlogPage = () => {
         </BlogMainStyle>
       </Layout>
     </div>
-  );
-};
+  )
+}
 
-export default BlogPage;
+export default BlogPage

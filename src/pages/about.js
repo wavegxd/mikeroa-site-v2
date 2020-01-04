@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import Layout from '../components/layout';
-import Head from '../components/head';
+import Layout from '../components/layout'
+import Head from '../components/head'
 
 const AboutStyle = styled.div`
   text-align: center;
@@ -12,7 +12,7 @@ const AboutStyle = styled.div`
   td {
     border: none;
   }
-`;
+`
 
 const AboutPage = () => (
   <div>
@@ -58,6 +58,6 @@ const AboutPage = () => (
       </AboutStyle>
     </Layout>
   </div>
-);
+)
 
-export default AboutPage;
+export default AboutPage

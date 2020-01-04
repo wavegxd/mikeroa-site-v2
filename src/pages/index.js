@@ -1,14 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react'
+import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGithubSquare,
   faTwitterSquare,
-} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 
-import Layout from '../components/layout';
-import Head from '../components/head';
+import Layout from '../components/layout'
+import Head from '../components/head'
 
 const HomeStyle = styled.div`
   text-align: center;
@@ -21,7 +21,7 @@ const HomeStyle = styled.div`
     padding: 0.3rem;
     text-decoration: none;
   }
-`;
+`
 
 const IndexPage = () => (
   <div>
@@ -44,6 +44,6 @@ const IndexPage = () => (
       </HomeStyle>
     </Layout>
   </div>
-);
+)
 
-export default IndexPage;
+export default IndexPage

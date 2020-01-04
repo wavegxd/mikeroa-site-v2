@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-import Layout from '../components/layout';
+import Layout from '../components/layout'
 
 const NotFound = () => (
   <Layout>
@@ -10,6 +10,6 @@ const NotFound = () => (
       <Link to="/">Head home</Link>
     </p>
   </Layout>
-);
+)
 
-export default NotFound;
+export default NotFound

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 // Page Layout style with sticky footer
 const LayoutStyle = styled.div`
@@ -15,6 +15,6 @@ const LayoutStyle = styled.div`
     flex-grow: 1;
   }
   /* Sticky Footer End */
-`;
+`
 
-export default LayoutStyle;
+export default LayoutStyle

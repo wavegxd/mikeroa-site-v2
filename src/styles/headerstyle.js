@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const HeaderStyle = styled.div`
   .header {
@@ -32,6 +32,6 @@ const HeaderStyle = styled.div`
   .active-nav-item {
     color: #333333;
   }
-`;
+`
 
-export default HeaderStyle;
+export default HeaderStyle

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -623,6 +623,6 @@ pre tt:after {
     font-size: 100%;
   }
 }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

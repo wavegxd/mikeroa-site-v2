@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const BlogMainStyle = styled.div`
   text-align: center;
@@ -34,6 +34,6 @@ const BlogMainStyle = styled.div`
       font-style: italic;
     }
   }
-`;
+`
 
-export default BlogMainStyle;
+export default BlogMainStyle
